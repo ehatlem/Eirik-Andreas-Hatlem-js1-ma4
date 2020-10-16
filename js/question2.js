@@ -31,6 +31,3 @@ function createHTML(games) {
     });
     container.innerHTML = html;
 }
-
-{/* <div class="game-image" style="background-image: url('${game.background_image}')"></div> */ }
-{/*  */ }
