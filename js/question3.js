@@ -5,7 +5,6 @@ const url = `https://api.rawg.io/api/games/${id}`;
 const container = document.querySelector(".container");
 
 async function fetchGame() {
-    console.log(url);
     try {
         const response = await fetch(url);
         const game = await response.json();
